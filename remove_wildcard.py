@@ -89,7 +89,7 @@ for line in domains:
         pass
     else:
         if ip not in ips:
-            results.append(line)
+            results.append('[!] '+line) 
         elif ip in ips and ips_dicc[ip] < 20:
             results.append('[!] '+line)  
 

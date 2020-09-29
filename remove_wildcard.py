@@ -21,7 +21,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-f', help='target file', dest='file')
 args = parser.parse_args() 
 
-domain = args.domain
+file = args.file
 
 DOMAIN = file
 

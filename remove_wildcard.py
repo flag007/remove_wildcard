@@ -18,12 +18,12 @@ else:
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('-d', help='target domains', dest='domain')
+parser.add_argument('-f', help='target file', dest='file')
 args = parser.parse_args() 
 
 domain = args.domain
 
-DOMAIN = domain + '.txt'
+DOMAIN = file
 
 domains = []
 ips = []
